@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soporte — Buckets</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      background-color: #f8f9fa;
+      color: #222;
+    }
+    h1, h2, h3 {
+      color: #0077cc;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    section {
+      margin-bottom: 40px;
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 40px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Centro de Soporte — Buckets</h1>
+  <p><strong>Última actualización:</strong> octubre de 2025</p>
+
+  <section>
+    <h2>1. Bienvenido al soporte de Buckets</h2>
+    <p>
+      Gracias por utilizar <strong>Buckets</strong>, tu repositorio de ejercicios de baloncesto.
+      En esta página encontrarás información sobre cómo resolver problemas comunes, ponerte en contacto con nosotros o reportar errores en la aplicación.
+    </p>
+  </section>
+
+  <section>
+    <h2>2. Preguntas frecuentes</h2>
+    <ul>
+      <li><strong>¿Cómo inicio sesión?</strong> — Puedes acceder usando tu cuenta de correo</li>
+      <li><strong>¿Cómo guardo mis ejercicios favoritos?</strong> — Pulsa el icono de corazón en la lista de ejercicios.</li>
+      <li><strong>¿Por qué no veo mis ejercicios?</strong> — Verifica tu conexión a internet o actualiza la aplicación.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Contacto y asistencia técnica</h2>
+    <p>
+      Si necesitas ayuda adicional o quieres reportar un error, escríbenos a:
+      <br />
+      📧 <a href="mailto:buckets.apps@gmail.com">buckets.apps@gmail.com</a>
+    </p>
+    <p>
+      Intentamos responder a todas las consultas en un plazo de 48 horas.
+    </p>
+  </section>
+
+  <section>
+    <h2>4. Privacidad y seguridad</h2>
+    <p>
+      Tu información está protegida y solo se utiliza para ofrecer el servicio. 
+      Puedes consultar nuestra <a href="index.html">Política de Privacidad</a> para más detalles.
+    </p>
+  </section>
+
+  <section>
+    <h2>5. Versión de la aplicación</h2>
+    <p>
+      Esta página de soporte aplica a la versión actual de la app: <strong>Buckets v1.0</strong>.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Buckets. Todos los derechos reservados. |
+    <a href="privacy_policy.html">Política de Privacidad</a>
+  </footer>
+
+</body>
+</html>
