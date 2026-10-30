@@ -3,31 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Política de Privacidad — Buckets</title>
+  <title>Política de Privacidad — Buckets Notebook</title>
+  <meta name="description" content="Política de privacidad y eliminación de cuenta de la aplicación Buckets Notebook." />
   <style>
     body {
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       line-height: 1.6;
-      margin: 40px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      max-width: 860px;
       background-color: #f8f9fa;
       color: #222;
     }
     h1, h2, h3 {
       color: #0077cc;
+      line-height: 1.3;
     }
     h1 {
       text-align: center;
+      margin-bottom: 10px;
+    }
+    .updated {
+      text-align: center;
       margin-bottom: 30px;
+      color: #555;
     }
-    p {
-      margin-bottom: 15px;
+    p, li {
+      margin-bottom: 10px;
     }
-    section {
-      margin-bottom: 40px;
+    section, nav {
+      margin-bottom: 30px;
       background: white;
       padding: 25px;
       border-radius: 12px;
       box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    section {
+      scroll-margin-top: 20px;
+    }
+    nav ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    nav li {
+      margin-bottom: 4px;
+    }
+    .highlight {
+      border-left: 5px solid #0077cc;
     }
     a {
       color: #0077cc;
@@ -36,102 +58,222 @@
     a:hover {
       text-decoration: underline;
     }
+    @media (max-width: 600px) {
+      body { padding: 20px 12px; }
+      section, nav { padding: 18px; }
+    }
   </style>
 </head>
 <body>
 
-  <h1>Política de Privacidad — Buckets</h1>
-  <p><strong>Última actualización:</strong> octubre de 2025</p>
+  <h1>Política de Privacidad — Buckets Notebook</h1>
+  <p class="updated"><strong>Última actualización:</strong> 30 de octubre de 2026</p>
 
-  <section>
-    <h2>1. Introducción</h2>
+  <nav aria-label="Índice">
+    <h2>Índice</h2>
+    <ol>
+      <li><a href="#responsable">Responsable del tratamiento</a></li>
+      <li><a href="#datos">Datos que tratamos</a></li>
+      <li><a href="#finalidades">Finalidades y base legal</a></li>
+      <li><a href="#anuncios">Publicidad y consentimiento</a></li>
+      <li><a href="#terceros">Proveedores y destinatarios</a></li>
+      <li><a href="#transferencias">Transferencias internacionales</a></li>
+      <li><a href="#conservacion">Conservación de los datos</a></li>
+      <li><a href="#eliminar-cuenta"><strong>Eliminar tu cuenta y tus datos</strong></a></li>
+      <li><a href="#derechos">Tus derechos</a></li>
+      <li><a href="#seguridad">Seguridad</a></li>
+      <li><a href="#menores">Menores de edad</a></li>
+      <li><a href="#cambios">Cambios en esta política</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ol>
+  </nav>
+
+  <section id="responsable">
+    <h2>1. Responsable del tratamiento</h2>
     <p>
-      Buckets (“la aplicación”, “nosotros”) respeta tu privacidad y se compromete a proteger tus datos personales. 
-      Esta Política de Privacidad explica cómo recopilamos, utilizamos y protegemos la información de los usuarios que utilizan nuestra aplicación móvil.
+      El responsable del tratamiento de tus datos personales en la aplicación <strong>Buckets Notebook</strong>
+      (“la aplicación”) es:
+    </p>
+    <ul>
+      <li><strong>Nombre:</strong> Daniel Salinas</li>
+      <li><strong>Correo electrónico:</strong> <a href="mailto:buckets.apps@gmail.com">buckets.apps@gmail.com</a></li>
+    </ul>
+    <p>
+      Esta política explica qué datos tratamos cuando usas la aplicación, para qué los usamos y qué derechos tienes.
     </p>
   </section>
 
-  <section>
-    <h2>2. Información que recopilamos</h2>
-    <p>La aplicación recopila información mínima necesaria para su funcionamiento, a través de los servicios de Firebase y Google AdMob:</p>
-    <h3>a) Información proporcionada por el usuario</h3>
+  <section id="datos">
+    <h2>2. Datos que tratamos</h2>
+
+    <h3>a) Si creas una cuenta</h3>
     <ul>
-      <li>Correo electrónico y contraseña si creas una cuenta o inicias sesión mediante correo electrónico.</li>
-      <li>Datos de inicio de sesión de terceros si accedes mediante Google, Apple o Facebook.</li>
+      <li>Tu <strong>correo electrónico</strong> y tu <strong>contraseña</strong>. La contraseña la gestiona Firebase Authentication de forma cifrada; nosotros nunca tenemos acceso a ella.</li>
+      <li>Un <strong>identificador de usuario</strong> interno y las fechas de creación de la cuenta y de último inicio de sesión.</li>
+      <li>La lista de <strong>ejercicios que marcas como favoritos</strong>.</li>
     </ul>
-    <h3>b) Información generada automáticamente</h3>
+    <p>Puedes usar la aplicación sin crear una cuenta; en ese caso no tratamos ninguno de los datos de este apartado.</p>
+
+    <h3>b) Datos del dispositivo para la publicidad</h3>
+    <p>Para mostrar anuncios, Google AdMob trata datos de tu dispositivo, en función de tu elección de consentimiento (ver <a href="#anuncios">apartado 4</a>):</p>
     <ul>
-      <li>Identificadores del dispositivo (como ID de publicidad) para mostrar anuncios mediante Google AdMob.</li>
-      <li>Datos de uso anónimos (tipo de dispositivo, sistema operativo, interacción con la app).</li>
+      <li>Identificador de publicidad del dispositivo (en Android, el ID de publicidad; en iOS, el IDFA solo si lo autorizas en el aviso de seguimiento de Apple).</li>
+      <li>Dirección IP y ubicación aproximada derivada de ella.</li>
+      <li>Información técnica del dispositivo (modelo, sistema operativo, idioma) e interacciones con los anuncios.</li>
     </ul>
-    <h3>c) Contenido del usuario</h3>
-    <ul>
-      <li>Los ejercicios que subes (título, descripción, etiquetas e imagen) se almacenan en Firebase Firestore y Storage.</li>
-    </ul>
+
+    <p>La aplicación <strong>no</strong> solicita acceso a tu ubicación precisa, contactos, cámara, micrófono ni fotos.</p>
   </section>
 
-  <section>
-    <h2>3. Finalidad del tratamiento</h2>
+  <section id="finalidades">
+    <h2>3. Finalidades y base legal</h2>
     <ul>
-      <li>Permitir el inicio de sesión y autenticación del usuario.</li>
-      <li>Guardar y mostrar ejercicios y entrenamientos personalizados.</li>
-      <li>Mostrar anuncios mediante Google AdMob.</li>
-      <li>Mejorar la funcionalidad y estabilidad de la aplicación.</li>
+      <li>
+        <strong>Gestionar tu cuenta</strong> (registro, verificación del correo, inicio de sesión y recuperación de contraseña)
+        y <strong>guardar tus favoritos</strong>.<br />
+        <em>Base legal:</em> ejecución del servicio que solicitas al crear la cuenta (art. 6.1.b RGPD).
+      </li>
+      <li>
+        <strong>Mostrar anuncios personalizados</strong> y almacenar o acceder a información en tu dispositivo con fines publicitarios.<br />
+        <em>Base legal:</em> tu consentimiento (art. 6.1.a RGPD), que puedes retirar en cualquier momento.
+      </li>
+      <li>
+        <strong>Mostrar anuncios no personalizados o limitados</strong>, medir su rendimiento de forma agregada y prevenir el fraude publicitario.<br />
+        <em>Base legal:</em> interés legítimo en financiar la aplicación gratuita y protegerla frente al fraude (art. 6.1.f RGPD), o tu consentimiento cuando sea necesario.
+      </li>
+      <li>
+        <strong>Mantener la seguridad</strong> del servicio y de las cuentas.<br />
+        <em>Base legal:</em> interés legítimo (art. 6.1.f RGPD).
+      </li>
     </ul>
+    <p>No vendemos tus datos personales ni los usamos para tomar decisiones automatizadas que te afecten.</p>
   </section>
 
-  <section>
-    <h2>4. Base legal del tratamiento</h2>
-    <ul>
-      <li>Tu consentimiento al utilizar la aplicación.</li>
-      <li>El cumplimiento de un contrato (proporcionar los servicios de la app).</li>
-      <li>Interés legítimo (mejora del servicio y prevención de fraudes).</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>5. Compartición de datos</h2>
-    <p>No vendemos ni compartimos tus datos personales con terceros. Sin embargo, los siguientes servicios procesan datos en nuestro nombre:</p>
-    <ul>
-      <li><strong>Google Firebase</strong> (Firestore, Storage, Authentication).</li>
-      <li><strong>Google AdMob</strong> para la gestión de anuncios.</li>
-      <li><strong>Proveedores de inicio de sesión externos</strong> (Google, Apple, Facebook).</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>6. Conservación de los datos</h2>
-    <p>Tus datos se conservan mientras tu cuenta esté activa. Puedes solicitar su eliminación completa enviando un correo a <a href="mailto:[TU_CORREO]">[TU_CORREO]</a>.</p>
-  </section>
-
-  <section>
-    <h2>7. Seguridad</h2>
+  <section id="anuncios">
+    <h2>4. Publicidad y consentimiento</h2>
     <p>
-      Utilizamos medidas de seguridad como conexiones HTTPS y autenticación segura mediante Firebase. 
+      Buckets Notebook es gratuita gracias a la publicidad que muestra Google AdMob.
+    </p>
+    <ul>
+      <li>Si estás en el Espacio Económico Europeo, el Reino Unido o Suiza, la aplicación te pedirá tu consentimiento la primera vez que la abras, mediante un formulario certificado de Google.</li>
+      <li><strong>Si aceptas</strong>, podrás ver anuncios personalizados según tus intereses.</li>
+      <li><strong>Si no aceptas</strong>, podrás seguir usando la aplicación con normalidad y verás anuncios no personalizados o limitados.</li>
+      <li>Puedes <strong>cambiar tu elección en cualquier momento</strong> desde <strong>Perfil → Privacidad de anuncios</strong>.</li>
+    </ul>
+    <p>
+      Más información sobre cómo usa Google los datos:
+      <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Cómo utiliza Google la información de sitios web o aplicaciones que usan sus servicios</a>.
+    </p>
+  </section>
+
+  <section id="terceros">
+    <h2>5. Proveedores y destinatarios</h2>
+    <p>Para prestar el servicio utilizamos los siguientes proveedores:</p>
+    <ul>
+      <li>
+        <strong>Google Firebase</strong> (Authentication y Cloud Firestore), de Google Ireland Ltd. / Google LLC, que actúa como encargado del tratamiento
+        para alojar tu cuenta y tus favoritos.
+        <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacidad de Firebase</a>.
+      </li>
+      <li>
+        <strong>Google AdMob</strong>, de Google Ireland Ltd. / Google LLC, y sus socios publicitarios, que tratan los datos del dispositivo descritos en el apartado 2.b
+        según tu elección de consentimiento.
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de privacidad de Google</a>.
+      </li>
+    </ul>
+    <p>No cedemos tus datos a ningún otro tercero, salvo obligación legal.</p>
+  </section>
+
+  <section id="transferencias">
+    <h2>6. Transferencias internacionales</h2>
+    <p>
+      Google puede tratar datos en servidores situados fuera del Espacio Económico Europeo, principalmente en Estados Unidos.
+      Estas transferencias se amparan en el Marco de Privacidad de Datos UE-EE. UU. (Data Privacy Framework), en el que Google está certificado,
+      y en las cláusulas contractuales tipo aprobadas por la Comisión Europea.
+    </p>
+  </section>
+
+  <section id="conservacion">
+    <h2>7. Conservación de los datos</h2>
+    <ul>
+      <li>Los datos de tu cuenta y tus favoritos se conservan mientras tu cuenta esté activa.</li>
+      <li>Cuando eliminas tu cuenta, se borran tu cuenta y tus favoritos de forma inmediata (desde la app) o en un plazo máximo de 30 días (si lo solicitas por correo).</li>
+      <li>Los datos tratados por Google AdMob se conservan según la <a href="https://policies.google.com/technologies/retention" target="_blank" rel="noopener">política de conservación de Google</a>.</li>
+    </ul>
+  </section>
+
+  <section id="eliminar-cuenta" class="highlight">
+    <h2>8. Eliminar tu cuenta y tus datos</h2>
+    <p>Puedes eliminar tu cuenta de <strong>Buckets Notebook</strong> y todos los datos asociados (correo electrónico, identificador de usuario y ejercicios favoritos) de dos formas:</p>
+
+    <h3>Opción 1: desde la aplicación</h3>
+    <ol>
+      <li>Abre Buckets Notebook e inicia sesión.</li>
+      <li>Pulsa el icono de <strong>Perfil</strong> (arriba a la derecha).</li>
+      <li>Pulsa <strong>Eliminar cuenta</strong> y confirma.</li>
+    </ol>
+    <p>Por seguridad, si hace tiempo que iniciaste sesión, la aplicación te pedirá que vuelvas a iniciarla antes de eliminar la cuenta.</p>
+
+    <h3>Opción 2: sin la aplicación</h3>
+    <p>
+      Si ya no tienes la aplicación instalada, envía un correo a
+      <a href="mailto:buckets.apps@gmail.com?subject=Eliminar%20mi%20cuenta%20de%20Buckets%20Notebook">buckets.apps@gmail.com</a>
+      con el asunto <strong>“Eliminar mi cuenta de Buckets Notebook”</strong>, desde la dirección de correo con la que te registraste.
+    </p>
+    <p>Eliminaremos tu cuenta y todos sus datos en un plazo máximo de <strong>30 días</strong> y te confirmaremos la eliminación por correo.</p>
+    <p>La eliminación es definitiva y no se puede deshacer. No conservamos ningún dato de tu cuenta después de eliminarla.</p>
+  </section>
+
+  <section id="derechos">
+    <h2>9. Tus derechos</h2>
+    <p>Puedes ejercer en cualquier momento tus derechos de:</p>
+    <ul>
+      <li><strong>Acceso</strong> a tus datos.</li>
+      <li><strong>Rectificación</strong> de datos inexactos.</li>
+      <li><strong>Supresión</strong> de tus datos (ver <a href="#eliminar-cuenta">apartado 8</a>).</li>
+      <li><strong>Oposición</strong> y <strong>limitación</strong> del tratamiento.</li>
+      <li><strong>Portabilidad</strong> de tus datos.</li>
+      <li><strong>Retirar tu consentimiento</strong> para la publicidad personalizada, desde <strong>Perfil → Privacidad de anuncios</strong>, sin que ello afecte a la licitud del tratamiento anterior.</li>
+    </ul>
+    <p>
+      Para ejercerlos, escribe a <a href="mailto:buckets.apps@gmail.com">buckets.apps@gmail.com</a>. Responderemos en el plazo máximo de un mes.
+    </p>
+    <p>
+      Si consideras que no hemos atendido correctamente tu solicitud, puedes presentar una reclamación ante la
+      <a href="https://www.aepd.es" target="_blank" rel="noopener">Agencia Española de Protección de Datos</a>.
+    </p>
+  </section>
+
+  <section id="seguridad">
+    <h2>10. Seguridad</h2>
+    <p>
+      Todas las comunicaciones de la aplicación se realizan mediante conexiones cifradas (HTTPS) y el acceso a los datos de cada cuenta está restringido a su titular mediante Firebase Authentication y reglas de seguridad.
       No obstante, ningún sistema es completamente infalible y no podemos garantizar la seguridad absoluta.
     </p>
   </section>
 
-  <section>
-    <h2>8. Derechos del usuario</h2>
-    <p>Puedes ejercer tus derechos de acceso, rectificación, eliminación y oposición contactando con nosotros en <a href="mailto:[TU_CORREO]">[TU_CORREO]</a>.</p>
+  <section id="menores">
+    <h2>11. Menores de edad</h2>
+    <p>
+      La aplicación no está dirigida a menores de 14 años. Los menores de 14 años no deben crear una cuenta sin el consentimiento de sus padres o tutores.
+      Si detectamos que hemos recibido datos de un menor de 14 años sin dicho consentimiento, los eliminaremos.
+    </p>
   </section>
 
-  <section>
-    <h2>9. Privacidad infantil</h2>
-    <p>La aplicación no está dirigida a menores de 13 años. Si detectamos información de un menor sin consentimiento paterno, será eliminada de inmediato.</p>
+  <section id="cambios">
+    <h2>12. Cambios en esta política</h2>
+    <p>
+      Podemos actualizar esta política para reflejar cambios en la aplicación o en la normativa. Publicaremos siempre la versión vigente en esta página, indicando la fecha de la última actualización.
+      Si los cambios son importantes, te avisaremos también dentro de la aplicación.
+    </p>
   </section>
 
-  <section>
-    <h2>10. Cambios en esta política</h2>
-    <p>Nos reservamos el derecho de actualizar esta Política de Privacidad en cualquier momento. Te notificaremos mediante la app o nuestra web.</p>
-  </section>
-
-  <section>
-    <h2>11. Contacto</h2>
-    <p>Si tienes dudas sobre esta política, puedes contactarnos en:</p>
+  <section id="contacto">
+    <h2>13. Contacto</h2>
+    <p>Para cualquier duda sobre esta política o sobre tus datos:</p>
+    <p><strong>Responsable:</strong> Daniel Salinas</p>
     <p><strong>Correo electrónico:</strong> <a href="mailto:buckets.apps@gmail.com">buckets.apps@gmail.com</a></p>
-    <p><strong>Aplicación:</strong> Buckets (App Store / Google Play)</p>
+    <p><strong>Aplicación:</strong> Buckets Notebook (Google Play y App Store)</p>
   </section>
 
 </body>
