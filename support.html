@@ -3,31 +3,54 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Soporte — Buckets</title>
+  <title>Soporte — Buckets Notebook</title>
+  <meta name="description" content="Centro de soporte de la aplicación Buckets Notebook: preguntas frecuentes y contacto." />
   <style>
     body {
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       line-height: 1.6;
-      margin: 40px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      max-width: 860px;
       background-color: #f8f9fa;
       color: #222;
     }
     h1, h2, h3 {
       color: #0077cc;
+      line-height: 1.3;
     }
     h1 {
       text-align: center;
+      margin-bottom: 10px;
+    }
+    .updated {
+      text-align: center;
       margin-bottom: 30px;
+      color: #555;
     }
     p {
       margin-bottom: 15px;
     }
     section {
-      margin-bottom: 40px;
+      margin-bottom: 30px;
       background: white;
       padding: 25px;
       border-radius: 12px;
       box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    details {
+      border-bottom: 1px solid #e5e7eb;
+      padding: 12px 0;
+    }
+    details:last-child {
+      border-bottom: none;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: bold;
+    }
+    details p, details ol {
+      margin: 10px 0 0;
     }
     a {
       color: #0077cc;
@@ -42,60 +65,123 @@
       margin-top: 40px;
       color: #777;
     }
+    @media (max-width: 600px) {
+      body { padding: 20px 12px; }
+      section { padding: 18px; }
+    }
   </style>
 </head>
 <body>
 
-  <h1>Centro de Soporte — Buckets</h1>
-  <p><strong>Última actualización:</strong> octubre de 2025</p>
+  <h1>Centro de Soporte — Buckets Notebook</h1>
+  <p class="updated"><strong>Última actualización:</strong> 30 de octubre de 2026</p>
 
   <section>
-    <h2>1. Bienvenido al soporte de Buckets</h2>
+    <h2>Bienvenido</h2>
     <p>
-      Gracias por utilizar <strong>Buckets</strong>, tu repositorio de ejercicios de baloncesto.
-      En esta página encontrarás información sobre cómo resolver problemas comunes, ponerte en contacto con nosotros o reportar errores en la aplicación.
+      Gracias por utilizar <strong>Buckets Notebook</strong>, tu repositorio de ejercicios de baloncesto.
+      Aquí encontrarás respuestas a las dudas más habituales y cómo contactar con nosotros.
     </p>
   </section>
 
   <section>
-    <h2>2. Preguntas frecuentes</h2>
-    <ul>
-      <li><strong>¿Cómo inicio sesión?</strong> — Puedes acceder usando tu cuenta de correo</li>
-      <li><strong>¿Cómo guardo mis ejercicios favoritos?</strong> — Pulsa el icono de corazón en la lista de ejercicios.</li>
-      <li><strong>¿Por qué no veo mis ejercicios?</strong> — Verifica tu conexión a internet o actualiza la aplicación.</li>
-    </ul>
+    <h2>Preguntas frecuentes</h2>
+
+    <details>
+      <summary>¿Necesito una cuenta para usar la app?</summary>
+      <p>No. Puedes consultar todos los ejercicios sin registrarte. La cuenta solo es necesaria para guardar ejercicios favoritos.</p>
+    </details>
+
+    <details>
+      <summary>¿Cómo creo una cuenta e inicio sesión?</summary>
+      <p>
+        Pulsa el icono de <strong>Perfil</strong> (arriba a la derecha) y elige <strong>Crear cuenta</strong> o <strong>Iniciar sesión</strong> con tu correo y una contraseña.
+        Después de registrarte recibirás un correo de verificación: debes abrir el enlace antes de poder iniciar sesión.
+      </p>
+    </details>
+
+    <details>
+      <summary>No me llega el correo de verificación</summary>
+      <p>
+        Revisa la carpeta de correo no deseado o spam. Si no está, intenta iniciar sesión: la app te ofrecerá
+        <strong>Reenviar verificación</strong>.
+      </p>
+    </details>
+
+    <details>
+      <summary>He olvidado mi contraseña</summary>
+      <p>
+        En la pantalla de inicio de sesión, escribe tu correo y pulsa <strong>¿Olvidaste tu contraseña?</strong>.
+        Recibirás un correo para crear una nueva. Si ya has iniciado sesión, también puedes hacerlo desde <strong>Perfil → Cambiar contraseña</strong>.
+      </p>
+    </details>
+
+    <details>
+      <summary>¿Cómo guardo mis ejercicios favoritos?</summary>
+      <p>
+        Inicia sesión y pulsa el icono de corazón de cualquier ejercicio. Los encontrarás en la pestaña
+        <strong>Favoritos</strong>, agrupados por etiqueta.
+      </p>
+    </details>
+
+    <details>
+      <summary>¿Cómo filtro los ejercicios?</summary>
+      <p>
+        En la pestaña <strong>Ejercicios</strong>, pulsa <strong>Menú → Filtros</strong> y marca una o varias etiquetas.
+        Se mostrarán los ejercicios que tengan todas las etiquetas seleccionadas.
+      </p>
+    </details>
+
+    <details>
+      <summary>No veo los ejercicios o no cargan las imágenes</summary>
+      <p>
+        Comprueba tu conexión a internet y que tienes instalada la última versión de la app.
+        Si tienes filtros activos, prueba a borrarlos desde <strong>Menú → Borrar filtros</strong>.
+      </p>
+    </details>
+
+    <details>
+      <summary>¿Por qué hay anuncios? ¿Puedo cambiar mis preferencias?</summary>
+      <p>
+        Los anuncios permiten que Buckets Notebook sea gratuita. Si estás en Europa, puedes cambiar en cualquier momento
+        si aceptas anuncios personalizados desde <strong>Perfil → Privacidad de anuncios</strong>.
+      </p>
+    </details>
+
+    <details>
+      <summary>¿Cómo elimino mi cuenta?</summary>
+      <p>
+        Desde la app: <strong>Perfil → Eliminar cuenta</strong>. Si ya no tienes la app, consulta
+        <a href="index.html#eliminar-cuenta">cómo solicitar la eliminación de tu cuenta</a>.
+      </p>
+    </details>
   </section>
 
   <section>
-    <h2>3. Contacto y asistencia técnica</h2>
+    <h2>Contacto y asistencia técnica</h2>
     <p>
-      Si necesitas ayuda adicional o quieres reportar un error, escríbenos a:
+      Si necesitas más ayuda o quieres informar de un error, escríbenos a:
       <br />
-      📧 <a href="mailto:buckets.apps@gmail.com">buckets.apps@gmail.com</a>
+      📧 <a href="mailto:buckets.apps@gmail.com?subject=Soporte%20Buckets%20Notebook">buckets.apps@gmail.com</a>
     </p>
     <p>
-      Intentamos responder a todas las consultas en un plazo de 48 horas.
+      Para ayudarte más rápido, indica el modelo de tu móvil, la versión del sistema (Android o iOS) y qué estabas haciendo cuando apareció el problema.
+      Si puedes, adjunta una captura de pantalla.
     </p>
+    <p>Intentamos responder a todas las consultas en un plazo de 48 horas laborables.</p>
   </section>
 
   <section>
-    <h2>4. Privacidad y seguridad</h2>
+    <h2>Privacidad</h2>
     <p>
-      Tu información está protegida y solo se utiliza para ofrecer el servicio. 
-      Puedes consultar nuestra <a href="index.html">Política de Privacidad</a> para más detalles.
-    </p>
-  </section>
-
-  <section>
-    <h2>5. Versión de la aplicación</h2>
-    <p>
-      Esta página de soporte aplica a la versión actual de la app: <strong>Buckets v1.0</strong>.
+      Solo tratamos los datos necesarios para tu cuenta y tus favoritos, y los que utiliza Google AdMob para mostrar anuncios según tu elección de consentimiento.
+      Consulta todos los detalles en nuestra <a href="index.html">Política de Privacidad</a>.
     </p>
   </section>
 
   <footer>
-    &copy; 2025 Buckets. Todos los derechos reservados. |
-    <a href="privacy_policy.html">Política de Privacidad</a>
+    &copy; 2026 Daniel Salinas — Buckets Notebook |
+    <a href="index.html">Política de Privacidad</a>
   </footer>
 
 </body>
